@@ -18,7 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
     future = fetchMealsByLetter();
   }
 
-  // Function to fetch meal data for each letter A-Z and categorize them
   Future<Map<String, List<dynamic>>> fetchMealsByLetter() async {
     Map<String, List<dynamic>> mealsByLetter = {};
     List<String> letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
