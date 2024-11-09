@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 children: [
                                   Text('Category: ${meal['strCategory'] ?? 'No category available'}'),
                                   const SizedBox(height: 8),
-                                  Text('National Origin: ${meal['strArea'] ?? 'No area available'}'),
+                                  Text('National Origin: ${meal['strArea'] ?? 'No origin available'}'),
                                   const SizedBox(height: 8),
                                   Text('Instructions: ${meal['strInstructions'] ?? 'No instructions available'}'),
                                   const SizedBox(height: 8),
